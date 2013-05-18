@@ -43,4 +43,4 @@ $end = microtime(true);
 $time = $end - $start;
 
 print trim($ret, ", ").PHP_EOL;
-print "Script took ".$time." seconds using " . memory_get_usage()/1024 . "kb of memory at peak".PHP_EOL.PHP_EOL;
+print "Script took ".$time." seconds using " . memory_get_usage()/1024 . "kb of memory".PHP_EOL.PHP_EOL;
